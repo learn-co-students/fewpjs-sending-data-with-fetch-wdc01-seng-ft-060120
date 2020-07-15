@@ -17,7 +17,7 @@ const submitData = (userName, userEmail) => {
     .then(function(object) {
         document.body.innerHTML = object["id"]
     })
-    .catch( function ( error ) {
+    .catch( function (error) {
       document.body.innerHTML = error.message
     } )
 }
